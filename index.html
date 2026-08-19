@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNDEAD Editing Pack — #1 Free Gtag Editing Pack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Cursor glow follower -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Particle canvas -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <span class="brand-undead">UNDEAD</span>
+            <span class="brand-dot">.</span>
+        </div>
+        <div class="nav-links">
+            <a href="#adjustments" class="nav-link btn-hover-sfx">adjustments</a>
+            <a href="#assets" class="nav-link btn-hover-sfx">assets</a>
+            <a href="#sfx" class="nav-link btn-hover-sfx">sfx</a>
+            <a href="#shakes" class="nav-link btn-hover-sfx">shakes</a>
+            <a href="#audios" class="nav-link btn-hover-sfx">audios</a>
+            <a href="https://github.com" class="nav-cta btn-hover-sfx btn-click-sfx" target="_blank">download</a>
+        </div>
+        <button class="mobile-menu-btn btn-hover-sfx" id="mobileMenuBtn" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#adjustments" class="mobile-link btn-hover-sfx">adjustments</a>
+        <a href="#assets" class="mobile-link btn-hover-sfx">assets</a>
+        <a href="#sfx" class="mobile-link btn-hover-sfx">sfx</a>
+        <a href="#shakes" class="mobile-link btn-hover-sfx">shakes</a>
+        <a href="#audios" class="mobile-link btn-hover-sfx">audios</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-radial"></div>
+        <div class="hero-content">
+            <div class="hero-badge animate-in">
+                <span class="badge-dot"></span>
+                free forever — no cap
+            </div>
+            <h1 class="hero-title animate-in">
+                <span class="title-line">THE <span class="text-gradient">#1</span></span>
+                <span class="title-line title-large">UNDEAD</span>
+                <span class="title-line">EDITING PACK</span>
+            </h1>
+            <p class="hero-subtitle animate-in">the best free gtag editing pack out there. no paywalls, no bs — just clean assets, fire shakes, and everything you need to make edits that go stupid hard.</p>
+            <div class="hero-buttons animate-in">
+                <a href="#adjustments" class="btn btn-primary btn-hover-sfx btn-click-sfx">
+                    <span>explore the pack</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7.8H7.8"/></svg>
+                </a>
+                <a href="https://github.com" class="btn btn-secondary btn-hover-sfx btn-click-sfx" target="_blank">
+                    <span>download free</span>
+                </a>
+            </div>
+            <div class="hero-stats animate-in">
+                <div class="stat">
+                    <span class="stat-number">5</span>
+                    <span class="stat-label">adjustment sets</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">17</span>
+                    <span class="stat-label">image assets</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">6</span>
+                    <span class="stat-label">shakes</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">free</span>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator animate-in">
+            <div class="scroll-line"></div>
+            <span>scroll down</span>
+        </div>
+    </section>
+
+    <!-- Warning Banner -->
+    <section class="warning-banner" id="warning">
+        <div class="warning-content">
+            <div class="hazard-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+                    <line x1="12" y1="9" x2="12" y2="13"/>
+                    <line x1="12" y1="17" x2="12.01" y2="17"/>
+                </svg>
+            </div>
+            <div class="warning-text">
+                <span class="warning-main">DON'T SPEND MONEY ON EDITING PACKS EVER</span>
+                <span class="warning-sub">seriously. everything you need is right here — completely free. don't let anyone finesse you.</span>
+            </div>
+            <div class="hazard-icon">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+                    <line x1="12" y1="9" x2="12" y2="13"/>
+                    <line x1="12" y1="17" x2="12.01" y2="17"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- Adjustment Sets Section -->
+    <section class="section" id="adjustments">
+        <div class="section-container">
+            <div class="section-header animate-in">
+                <span class="section-tag">01 / presets</span>
+                <h2 class="section-title">Adjustment Sets</h2>
+                <p class="section-desc">5 handcrafted color grading presets that'll make your edits look absolutely unreal. just copy the values and you're set.</p>
+                <div class="glow-notice">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                    <span>GLOW 2 MUST BE ON EVERYTHING FOR QUALITY PURPOSES</span>
+                </div>
+            </div>
+
+            <!-- Adjustment Set Cards -->
+            <div class="adjustment-grid">
+                <!-- HD High Saturation -->
+                <div class="adj-card animate-in">
+                    <div class="adj-card-glow"></div>
+                    <h3 class="adj-name">HD High Saturation</h3>
+                    <div class="adj-preview">
+                        <img src="adjustment set previews/HDHighSaturationPreview.png" alt="HD High Saturation Preview" loading="lazy">
+                    </div>
+                    <div class="adj-values">
+                        <h4>values</h4>
+                        <div class="adj-values-imgs">
+                            <img src="adjustment set values/HDHighSaturation.png" alt="HD High Saturation Values" loading="lazy">
+                            <img src="adjustment set values/HDHighSaturationGlow.png" alt="HD High Saturation Glow" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Low Exposure Blue -->
+                <div class="adj-card animate-in">
+                    <div class="adj-card-glow"></div>
+                    <h3 class="adj-name">Low Exposure Blue</h3>
+                    <div class="adj-preview">
+                        <img src="adjustment set previews/LowExposureBluePreview.png" alt="Low Exposure Blue Preview" loading="lazy">
+                    </div>
+                    <div class="adj-values">
+                        <h4>values</h4>
+                        <div class="adj-values-imgs">
+                            <img src="adjustment set values/LowExposureBlue.png" alt="Low Exposure Blue Values" loading="lazy">
+                            <img src="adjustment set values/LowExposureBlueGlow2.png" alt="Low Exposure Blue Glow 2" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Low Exposure High Quality -->
+                <div class="adj-card animate-in">
+                    <div class="adj-card-glow"></div>
+                    <h3 class="adj-name">Low Exposure High Quality</h3>
+                    <div class="adj-preview">
+                        <img src="adjustment set previews/LowExposureHighHighQualityPreview.png" alt="Low Exposure High Quality Preview" loading="lazy">
+                    </div>
+                    <div class="adj-values">
+                        <h4>values</h4>
+                        <div class="adj-values-imgs">
+                            <img src="adjustment set values/LowExposureHighHighQuality.png" alt="Low Exposure High Quality Values" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mid Exposure Low Sat -->
+                <div class="adj-card animate-in">
+                    <div class="adj-card-glow"></div>
+                    <h3 class="adj-name">Mid Exposure Low Sat</h3>
+                    <div class="adj-preview">
+                        <img src="adjustment set previews/MidExposureLowSatPreview.png" alt="Mid Exposure Low Sat Preview" loading="lazy">
+                    </div>
+                    <div class="adj-values">
+                        <h4>values</h4>
+                        <div class="adj-values-imgs">
+                            <img src="adjustment set values/MidExposureLowSat.png" alt="Mid Exposure Low Sat Values" loading="lazy">
+                            <img src="adjustment set values/MidExposureLowSatGlow.png" alt="Mid Exposure Low Sat Glow" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Signature B&W -->
+                <div class="adj-card animate-in">
+                    <div class="adj-card-glow"></div>
+                    <h3 class="adj-name">Signature Undead B&W</h3>
+                    <div class="adj-preview">
+                        <img src="adjustment set previews/SIGNATUREUNDEADB&WPREVIEW.png" alt="Signature Undead B&W Preview" loading="lazy">
+                    </div>
+                    <div class="adj-values">
+                        <h4>values</h4>
+                        <div class="adj-values-imgs">
+                            <img src="adjustment set values/SIGNATUREUNDEADB&W.png" alt="Signature B&W Values" loading="lazy">
+                            <img src="adjustment set values/SIGNATUREUNDEADB&Wglow.png" alt="Signature B&W Glow" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Assets Section -->
+    <section class="section section-dark" id="assets">
+        <div class="section-container">
+            <div class="section-header animate-in">
+                <span class="section-tag">02 / images</span>
+                <h2 class="section-title">Image Assets</h2>
+                <p class="section-desc">17 high quality image assets ready to throw into your edits. overlays, characters, thumbnails — all yours.</p>
+            </div>
+            <div class="assets-grid">
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/1748092958197.png" alt="Asset 1" loading="lazy"></div><span class="asset-label">ASSET 1</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/bluehandmonke.png" alt="Asset 2" loading="lazy"></div><span class="asset-label">ASSET 2</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/CHEWY_RIG_OF_FICC.png" alt="Asset 3" loading="lazy"></div><span class="asset-label">ASSET 3</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/iawdjadodadj.png" alt="Asset 4" loading="lazy"></div><span class="asset-label">ASSET 4</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/IMG_4141.png" alt="Asset 5" loading="lazy"></div><span class="asset-label">ASSET 5</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/IMG_7959.png" alt="Asset 6" loading="lazy"></div><span class="asset-label">ASSET 6</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/IMG_7962.png" alt="Asset 7" loading="lazy"></div><span class="asset-label">ASSET 7</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/jico_rig_test.png" alt="Asset 8" loading="lazy"></div><span class="asset-label">ASSET 8</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/Lava_123monkey.png" alt="Asset 9" loading="lazy"></div><span class="asset-label">ASSET 9</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/MonkeGrey_2.png" alt="Asset 10" loading="lazy"></div><span class="asset-label">ASSET 10</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/red_looking.png" alt="Asset 11" loading="lazy"></div><span class="asset-label">ASSET 11</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/redhands.png" alt="Asset 12" loading="lazy"></div><span class="asset-label">ASSET 12</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/redscarw3ed.png" alt="Asset 13" loading="lazy"></div><span class="asset-label">ASSET 13</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/redscarwed.png" alt="Asset 14" loading="lazy"></div><span class="asset-label">ASSET 14</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/righ.png" alt="Asset 15" loading="lazy"></div><span class="asset-label">ASSET 15</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/ThumbnailTHing.png" alt="Asset 16" loading="lazy"></div><span class="asset-label">ASSET 16</span></div>
+                <div class="asset-card animate-in"><div class="asset-img-wrap"><img src="imageassets/ViewsGoingUp.png.jpg" alt="Asset 17" loading="lazy"></div><span class="asset-label">ASSET 17</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SFX Assets Section -->
+    <section class="section" id="sfx">
+        <div class="section-container">
+            <div class="section-header animate-in">
+                <span class="section-tag">03 / sound effects</span>
+                <h2 class="section-title">SFX Assets</h2>
+                <p class="section-desc">clean sound effects to layer into your edits. hit markers, impacts, transitions — the essentials.</p>
+            </div>
+            <div class="audio-list">
+                <div class="audio-item animate-in" data-src="sfx assets/AWP.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play AWP">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">AWP</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="sfx assets/border.wav">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play border">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">border</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.wav</span>
+                </div>
+                <div class="audio-item animate-in" data-src="sfx assets/fire.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play fire">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">fire</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="sfx assets/gun.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play gun">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">gun</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="sfx assets/mindcontrol.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play mindcontrol">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">mindcontrol</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="sfx assets/Text Click.wav">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play Text Click">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">Text Click</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.wav</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shakes Section -->
+    <section class="section section-dark" id="shakes">
+        <div class="section-container">
+            <div class="section-header animate-in">
+                <span class="section-tag">04 / motion</span>
+                <h2 class="section-title">Shakes</h2>
+                <p class="section-desc">6 free high quality shakes that'll add that raw energy to your edits. smooth, aggressive, whatever vibe you need.</p>
+            </div>
+            <div class="shakes-showcase animate-in">
+                <div class="video-container">
+                    <video controls preload="metadata" playsinline>
+                        <source src="AllShakesVid/SHAKEVID.mp4" type="video/mp4">
+                        your browser doesn't support video playback.
+                    </video>
+                </div>
+                <div class="shakes-info">
+                    <div class="shakes-count">
+                        <span class="shakes-number">6</span>
+                        <span class="shakes-label">premium shakes</span>
+                    </div>
+                    <p class="shakes-desc">all 6 shakes previewed in one video. each one is crafted to hit different — from subtle camera movements to full screen-shaking intensity.</p>
+                    <div class="shakes-tags">
+                        <span class="shake-tag">smooth</span>
+                        <span class="shake-tag">aggressive</span>
+                        <span class="shake-tag">whip</span>
+                        <span class="shake-tag">impact</span>
+                        <span class="shake-tag">subtle</span>
+                        <span class="shake-tag">earthquake</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Random Audios Section -->
+    <section class="section" id="audios">
+        <div class="section-container">
+            <div class="section-header animate-in">
+                <span class="section-tag">05 / music</span>
+                <h2 class="section-title">Random Audios</h2>
+                <p class="section-desc">15 tracks that go hard. from evil bass-heavy beats to chill vibes — perfect background music for your edits.</p>
+            </div>
+            <div class="audio-list">
+                <div class="audio-item animate-in" data-src="random audios/aurasong2.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play aurasong2">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">aurasong2</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/bassrussiansong.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play bassrussiansong">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">bassrussiansong</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/biggerfishtheory.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play biggerfishtheory">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">biggerfishtheory</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/cavalona.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play cavalona">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">cavalona</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/eheh.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play eheh">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">eheh</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/ehehnoedits.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play ehehnoedits">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">ehehnoedits</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/evilbutmorebass.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play evilbutmorebass">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">evilbutmorebass</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/forgotnamebutthisshitisevil.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play forgotnamebutthisshitisevil">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">forgotnamebutthisshitisevil</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/goeshardidk.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play goeshardidk">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">goeshardidk</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/niche.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play niche">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">niche</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/revolutionsong.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play revolutionsong">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">revolutionsong</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/s0ngf0rmyd34th.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play s0ngf0rmyd34th">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">s0ngf0rmyd34th</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/suachama.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play suachama">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">suachama</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/wecanholdourselvesinsteadbigbass.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play wecanholdourselvesinsteadbigbass">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">wecanholdourselvesinsteadbigbass</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+                <div class="audio-item animate-in" data-src="random audios/xslide.mp3">
+                    <button class="play-btn btn-hover-sfx btn-click-sfx" aria-label="Play xslide">
+                        <svg class="play-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                        <svg class="pause-icon" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></svg>
+                    </button>
+                    <div class="audio-info">
+                        <span class="audio-name">xslide</span>
+                        <div class="audio-waveform"><div class="waveform-progress"></div></div>
+                    </div>
+                    <span class="audio-type">.mp3</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <span class="brand-undead">UNDEAD</span>
+                <span class="brand-dot">.</span>
+            </div>
+            <p class="footer-text">the #1 free gtag editing pack. always free, always will be.</p>
+            <div class="footer-divider"></div>
+            <p class="footer-copy">made with zero budget and pure dedication</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close btn-hover-sfx btn-click-sfx" aria-label="Close">&times;</button>
+        <img class="lightbox-img" id="lightboxImg" alt="Preview">
+    </div>
+
+    <!-- Preload UI SFX -->
+    <audio id="hoverSfx" preload="auto" src="sfx assets/Text Click.wav"></audio>
+    <audio id="clickSfx" preload="auto" src="sfx assets/border.wav"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
