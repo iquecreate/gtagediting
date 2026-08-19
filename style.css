@@ -784,15 +784,52 @@ body:hover .cursor-glow {
     transform: scale(1.1);
 }
 
+.asset-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 16px;
+    border-top: 1px solid var(--border);
+}
+
 .asset-label {
-    display: block;
-    padding: 12px 16px;
     font-size: 0.8rem;
     font-weight: 700;
     color: var(--text-secondary);
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    border-top: 1px solid var(--border);
+}
+
+/* ===== DOWNLOAD BUTTON ===== */
+.dl-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    min-width: 34px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--text-secondary);
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.dl-btn:hover {
+    border-color: var(--accent);
+    background: rgba(124, 58, 237, 0.1);
+    color: var(--accent-light);
+    transform: translateY(-1px);
+    box-shadow: 0 0 15px var(--accent-glow);
+}
+
+.dl-btn:active {
+    transform: scale(0.92) !important;
 }
 
 /* ===== AUDIO PLAYERS ===== */

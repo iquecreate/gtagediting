@@ -195,6 +195,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // ===== SET AUDIO DOWNLOAD HREFS =====
+    document.querySelectorAll('.audio-item').forEach(item => {
+        const dlBtn = item.querySelector('.dl-btn');
+        if (dlBtn && item.dataset.src) {
+            dlBtn.href = item.dataset.src;
+        }
+    });
+
     // ===== AUDIO PLAYER SYSTEM =====
     let currentAudio = null;
     let currentItem = null;
